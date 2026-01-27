@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PrecursorLoRa")(type "KiCad")(uri "${KIPRJMOD}/symbols/RAK3172.kicad_sym")(options "")(descr "Precursor LoRa project symbols"))
+)
