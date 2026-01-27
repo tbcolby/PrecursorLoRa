@@ -1,0 +1,58 @@
+# KiCad backup and autosave files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+*-bak
+*~
+\#*\#
+*.orig
+*.tmp
+
+# KiCad lock files
+*.kicad_pro.lck
+*.kicad_sch.lck
+*.kicad_pcb.lck
+
+# KiCad rescue files
+*-rescue.kicad_sch
+*-rescue.kicad_sym
+fp-info-cache
+
+# KiCad netlist and intermediate files
+*.net
+*.dsn
+*.ses
+
+# Generated outputs (optional - uncomment if you want to track these)
+# fabrication/gerbers/*
+# fabrication/pick-and-place/*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+venv/
+.env
+
+# Build artifacts
+*.o
+*.a
+*.so
+
+# Temporary files
+*.log
+*.bak
