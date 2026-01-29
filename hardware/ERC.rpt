@@ -1,0 +1,98 @@
+ERC report (2026-01-26T23:11:55-0600, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'VCC' doesn't match copy in library 'power'
+    ; warning
+    @(2000 mils, 2000 mils): Symbol #PWR03 [VCC]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(2300 mils, 2500 mils): Symbol C1 [C]
+[lib_symbol_mismatch]: Symbol 'AP2112K-3.3' doesn't match copy in library 'Regulator_Linear'
+    ; warning
+    @(3000 mils, 2300 mils): Symbol U1 [AP2112K-3.3]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(3000 mils, 2900 mils): Symbol #PWR04 [GND]
+[lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
+    ; warning
+    @(3700 mils, 2000 mils): Symbol #PWR05 [+3V3]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(3700 mils, 2500 mils): Symbol C2 [C]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(4300 mils, 2300 mils): Symbol R1 [R]
+[lib_symbol_mismatch]: Symbol 'Conn_01x08_Pin' doesn't match copy in library 'Connector'
+    ; warning
+    @(1600 mils, 4700 mils): Symbol J1 [Conn_01x08_Pin]
+[lib_symbol_mismatch]: Symbol 'VCC' doesn't match copy in library 'power'
+    ; warning
+    @(1400 mils, 4800 mils): Symbol #PWR01 [VCC]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(1600 mils, 4800 mils): Symbol #FLG01 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(4300 mils, 2700 mils): Symbol LED1 [LED]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1400 mils, 4900 mils): Symbol #PWR02 [GND]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(1600 mils, 4800 mils): Horizontal Wire, length 200 mils
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(1600 mils, 4900 mils): Symbol #FLG02 [PWR_FLAG]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(1600 mils, 4900 mils): Horizontal Wire, length 200 mils
+[lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
+    ; warning
+    @(5450 mils, 4400 mils): Symbol #PWR06 [+3V3]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(5300 mils, 4700 mils): Symbol C3 [C]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(5600 mils, 4700 mils): Symbol C4 [C]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(5450 mils, 5000 mils): Symbol #PWR07 [GND]
+[lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
+    ; warning
+    @(7000 mils, 3700 mils): Symbol #PWR09 [+3V3]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(6300 mils, 5050 mils): Symbol #PWR08 [GND]
+[lib_symbol_mismatch]: Symbol 'RAK3172' doesn't match copy in library 'PrecursorLoRa'
+    ; warning
+    @(7000 mils, 4700 mils): Symbol U2 [RAK3172]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(7000 mils, 5850 mils): Symbol #PWR010 [GND]
+[lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
+    ; warning
+    @(8300 mils, 3800 mils): Symbol #PWR012 [+3V3]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(7900 mils, 4650 mils): Symbol #PWR011 [GND]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(8300 mils, 4100 mils): Symbol R2 [R]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(8300 mils, 4800 mils): Symbol R3 [R]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(8300 mils, 5100 mils): Symbol #PWR013 [GND]
+[lib_symbol_mismatch]: Symbol 'Conn_Coaxial' doesn't match copy in library 'Connector'
+    ; warning
+    @(8800 mils, 5350 mils): Symbol J2 [Conn_Coaxial]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(8600 mils, 5350 mils): Horizontal Wire, length 200 mils
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(8800 mils, 5700 mils): Symbol #PWR014 [GND]
+
+ ** ERC messages: 31  Errors 0  Warnings 31

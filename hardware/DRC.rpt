@@ -1,0 +1,177 @@
+** Drc report for precursor-lora.kicad_pcb **
+** Created on 2026-01-28T10:57:00-0600 **
+
+** Found 42 DRC violations **
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(170.0000 mm, 100.5000 mm): Track [Net-(J2-In)] on F.Cu, length 9.9700 mm
+[items_not_allowed]: Items not allowed (keepout area)
+    Rule: keepout area; error
+    @(172.0000 mm, 100.5300 mm): Track [+3V3] on B.Cu, length 29.5000 mm
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(172.0000 mm, 97.9900 mm): Track [+3V3] on B.Cu, length 14.0000 mm
+    @(166.0000 mm, 108.5000 mm): Track [Net-(J1-Pin_4)] on B.Cu, length 15.2300 mm
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(161.9000 mm, 94.5400 mm): Track [+3V3] on F.Cu, length 10.1000 mm
+    @(170.0000 mm, 86.0000 mm): Track [Net-(J2-In)] on F.Cu, length 14.5000 mm
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(162.0000 mm, 109.9600 mm): Track [Net-(LED1-A)] on B.Cu, length 5.4400 mm
+    @(153.9600 mm, 108.5000 mm): Track [Net-(J1-Pin_4)] on B.Cu, length 12.0400 mm
+[shorting_items]: Items shorting two nets (nets unconnected-(U1-NC-Pad4) and +3V3)
+    Local override; error
+    @(143.1675 mm, 112.0150 mm): Pad 4 [unconnected-(U1-NC-Pad4)] of U1 on F.Cu
+    @(143.1675 mm, 114.0000 mm): Track [+3V3] on F.Cu, length 3.8850 mm
+[shorting_items]: Items shorting two nets (nets unconnected-(U2-PA0-Pad29) and +3V3)
+    Local override; error
+    @(157.2650 mm, 104.3400 mm): Pad 29 [unconnected-(U2-PA0-Pad29)] of U2 on F.Cu
+    @(157.0000 mm, 114.0000 mm): Track [+3V3] on F.Cu, length 9.4800 mm
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(162.0000 mm, 109.9600 mm): Track [Net-(LED1-A)] on B.Cu, length 5.4400 mm
+    @(168.0000 mm, 106.5100 mm): Track [Net-(J1-Pin_5)] on B.Cu, length 7.5000 mm
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(166.0000 mm, 108.5000 mm): Track [Net-(J1-Pin_4)] on B.Cu, length 15.2300 mm
+    @(172.0000 mm, 100.5300 mm): Track [+3V3] on B.Cu, length 29.5000 mm
+[shorting_items]: Items shorting two nets (nets unconnected-(U2-PA0-Pad29) and +3V3)
+    Local override; error
+    @(157.2650 mm, 104.3400 mm): Pad 29 [unconnected-(U2-PA0-Pad29)] of U2 on F.Cu
+    @(157.0000 mm, 104.5200 mm): Track [+3V3] on F.Cu, length 2.4800 mm
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(168.0000 mm, 106.5100 mm): Track [Net-(J1-Pin_5)] on B.Cu, length 7.5000 mm
+    @(166.0000 mm, 108.5000 mm): Track [Net-(J1-Pin_4)] on B.Cu, length 15.2300 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1100 mm)
+    Rule: netclass 'Default'; error
+    @(155.0000 mm, 94.5400 mm): Track [Net-(J1-Pin_5)] on B.Cu, length 0.9100 mm
+    @(158.0000 mm, 95.8100 mm): Track [Net-(J1-Pin_1)] on B.Cu, length 18.0000 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0100 mm)
+    Rule: netclass 'Default'; error
+    @(158.0000 mm, 92.0000 mm): Track [Net-(J1-Pin_1)] on F.Cu, length 3.8100 mm
+    @(157.2650 mm, 94.1800 mm): Pad 21 [GND] of U2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1100 mm)
+    Rule: netclass 'Default'; error
+    @(155.0000 mm, 95.4500 mm): Track [Net-(J1-Pin_5)] on B.Cu, length 2.2650 mm
+    @(158.0000 mm, 95.8100 mm): Track [Net-(J1-Pin_1)] on B.Cu, length 18.0000 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0100 mm)
+    Rule: netclass 'Default'; error
+    @(158.0000 mm, 95.8100 mm): Track [Net-(J1-Pin_1)] on F.Cu, length 2.6300 mm
+    @(157.2650 mm, 95.4500 mm): Pad 22 [Net-(J1-Pin_5)] of U2 on F.Cu
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(160.6300 mm, 94.5400 mm): Track [Net-(J1-Pin_5)] on B.Cu, length 7.3700 mm
+    @(166.0000 mm, 108.5000 mm): Track [Net-(J1-Pin_4)] on B.Cu, length 15.2300 mm
+[shorting_items]: Items shorting two nets (nets Net-(J1-Pin_5) and Net-(J1-Pin_1))
+    Local override; error
+    @(157.2650 mm, 95.4500 mm): Via [Net-(J1-Pin_5)] on F.Cu - B.Cu
+    @(158.0000 mm, 95.8100 mm): Track [Net-(J1-Pin_1)] on B.Cu, length 18.0000 mm
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(172.0000 mm, 97.9900 mm): Track [+3V3] on B.Cu, length 14.0000 mm
+    @(168.0000 mm, 94.5400 mm): Track [Net-(J1-Pin_5)] on B.Cu, length 11.9700 mm
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(166.5000 mm, 86.5000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(161.9000 mm, 92.0000 mm): PTH pad 2 [GND] of J1
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(166.5000 mm, 86.5000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(161.9000 mm, 92.0000 mm): PTH pad 2 [GND] of J1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(160.6300 mm, 94.5400 mm): Track [Net-(J1-Pin_5)] on B.Cu, length 7.3700 mm
+    @(161.9000 mm, 94.5400 mm): PTH pad 6 [+3V3] of J1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(157.0000 mm, 114.0000 mm): Track [+3V3] on F.Cu, length 9.4800 mm
+    @(157.2650 mm, 104.3400 mm): Pad 29 [unconnected-(U2-PA0-Pad29)] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(157.0000 mm, 104.5200 mm): Track [+3V3] on F.Cu, length 2.4800 mm
+    @(157.2650 mm, 104.3400 mm): Pad 29 [unconnected-(U2-PA0-Pad29)] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.1675 mm, 114.0000 mm): Track [+3V3] on F.Cu, length 3.8850 mm
+    @(143.1675 mm, 112.0150 mm): Pad 4 [unconnected-(U1-NC-Pad4)] of U1 on F.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(172.0000 mm, 97.9900 mm): Track [+3V3] on B.Cu, length 14.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(172.0000 mm, 114.0000 mm): Track [+3V3] on F.Cu, length 36.0000 mm
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(159.9900 mm, 107.3300 mm): Reference field of R3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.2650 mm, 91.8950 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.2650 mm, 91.8950 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.2650 mm, 107.8950 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(157.7650 mm, 91.8950 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.1000 mm, 108.4900 mm): Reference field of C3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.6100 mm, 111.0000 mm): Reference field of C2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.1000 mm, 110.4600 mm): Reference field of C4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(159.9900 mm, 105.3400 mm): Reference field of R2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.9900 mm, 107.3300 mm): Reference field of R3
+    @(159.8364 mm, 106.8900 mm): Segment of R2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(141.2650 mm, 107.8950 mm): Segment of U2 on F.Silkscreen
+    @(146.6100 mm, 108.4900 mm): Reference field of C1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(154.1000 mm, 108.4900 mm): Reference field of C3
+    @(141.2650 mm, 107.8950 mm): Segment of U2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(150.6600 mm, 108.5300 mm): Reference field of LED1
+    @(141.2650 mm, 107.8950 mm): Segment of U2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(159.9900 mm, 105.3400 mm): Reference field of R2
+    @(159.8364 mm, 104.9000 mm): Segment of R1 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(146.4694 mm, 110.4300 mm): Segment of C1 on F.Silkscreen
+    @(146.6100 mm, 111.0000 mm): Reference field of C2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(153.9922 mm, 110.0100 mm): Segment of C3 on F.Silkscreen
+    @(154.1000 mm, 110.4600 mm): Reference field of C4
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.5000 mm, 86.5000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(166.5000 mm, 86.5000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.5000 mm, 86.5000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(166.5000 mm, 86.5000 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.0000 mm, 100.5300 mm): Via [+3V3] on F.Cu - B.Cu
+    @(172.0000 mm, 97.9900 mm): Track [+3V3] on B.Cu, length 14.0000 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **
